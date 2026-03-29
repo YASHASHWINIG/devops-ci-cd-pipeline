@@ -1,11 +1,13 @@
 CI/CD Pipeline Project
 -Project Overview
     This project demonstrates real-time CI/CD pipeline implementation using industry tools.
-    This project demonstrates a complete CI/CD pipeline using Jenkins, Maven, SonarQube, Nexus, and Tomcat.
     The pipeline automates build, test, quality check, artifact storage, and deployment of a Java application.
+    This project demonstrates a complete CI/CD pipeline using Jenkins, Maven, SonarQube, Nexus, and Tomcat.
+    
     
      -Architecture
 GitHub → Jenkins → SonarQube → Nexus → Tomcat → Browser
+
 
     CI/CD Pipeline Flow
 01.Code is stored in GitHub
@@ -16,6 +18,7 @@ GitHub → Jenkins → SonarQube → Nexus → Tomcat → Browser
 06.Jenkins deploys the application to Tomcat server
 07.Application runs in browser
 
+
    Tools & Technologies
 01.Jenkins (CI/CD)
 02.Maven (Build tool)
@@ -24,6 +27,7 @@ GitHub → Jenkins → SonarQube → Nexus → Tomcat → Browser
 05.Tomcat (Deployment Server)
 06.AWS EC2 (Hosting)
 07.GitHub (Version Control)
+
 
    Key Features
 01. Automated CI/CD pipeline
